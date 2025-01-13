@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1518650A9EBBB519ED61546 /* Pods_MZBaseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418817148793F00A86A242AE /* Pods_MZBaseKit.framework */; };
+		77301A82437CBEEC68C1E289 /* libPods-MZBaseKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 720DBE8DDEC6CE77E5EA4DFD /* libPods-MZBaseKit.a */; };
 		E7BFDB2226BF06010083B18A /* MZBaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BFDB2026BF06010083B18A /* MZBaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7BFDB2926BF063F0083B18A /* MZBaseKitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BFDB2726BF063F0083B18A /* MZBaseKitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7BFDB2A26BF063F0083B18A /* MZBaseKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BFDB2826BF063F0083B18A /* MZBaseKitTest.m */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		418817148793F00A86A242AE /* Pods_MZBaseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZBaseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720DBE8DDEC6CE77E5EA4DFD /* libPods-MZBaseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MZBaseKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F165098DE37B64D2BE7E5E /* Pods-MZBaseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZBaseKit.debug.xcconfig"; path = "Target Support Files/Pods-MZBaseKit/Pods-MZBaseKit.debug.xcconfig"; sourceTree = "<group>"; };
 		E7BFDAFF26BF05B70083B18A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7BFDB0026BF05B70083B18A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1518650A9EBBB519ED61546 /* Pods_MZBaseKit.framework in Frameworks */,
+				77301A82437CBEEC68C1E289 /* libPods-MZBaseKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,7 @@
 			children = (
 				E7BFDBFB26BFE9410083B18A /* MQTTClient.framework */,
 				E7BFDBED26BFE6C10083B18A /* MQTTClient.framework */,
-				418817148793F00A86A242AE /* Pods_MZBaseKit.framework */,
+				720DBE8DDEC6CE77E5EA4DFD /* libPods-MZBaseKit.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
